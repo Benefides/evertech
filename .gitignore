@@ -1,0 +1,17 @@
+# Large archive files (exceeds GitHub's 100MB limit)
+*.zip
+*.tar.gz
+*.tar
+*.rar
+evertech.ai.zip
+
+# Sensitive logs and configs
+chatbot-leads.log
+chatbot-config.php
+*.log
+.env
+
+# Server and OS files
+.ftpquota
+.DS_Store
+Thumbs.db

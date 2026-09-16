@@ -1,0 +1,155 @@
+# ============================================================
+#  evertechme.com — .htaccess  (merged + hardened + SEO fixed)
+#  Apache 2.4 (XAMPP local + GoDaddy shared hosting)
+# ============================================================
+
+RewriteEngine On
+Options -Indexes
+ServerSignature Off
+
+# ------------------------------------------------------------
+# 1. Force HTTPS
+# ------------------------------------------------------------
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# ------------------------------------------------------------
+# 2. Canonical host: Force NON-WWW
+# ------------------------------------------------------------
+RewriteCond %{HTTP_HOST} ^www\.evertechme\.com [NC]
+RewriteRule ^(.*)$ https://evertechme.com/$1 [R=301,L]
+
+# ------------------------------------------------------------
+# 2b. Strip trailing slashes from clean URLs (prevents 404s)
+#     Excludes physical directories like /blog/.
+# ------------------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^/(.+)/+$
+RewriteRule ^ https://evertechme.com/%1 [R=301,L]
+
+# ------------------------------------------------------------
+# 3. 301 Redirect old .php and .html hits -> Clean URLs
+#    Ensures only ONE canonical URL exists in Google's index.
+#    Excludes API handlers, admin, and WordPress /blog/.
+# ------------------------------------------------------------
+RewriteCond %{THE_REQUEST} !\s/+product\.php [NC]
+RewriteCond %{THE_REQUEST} !\s/+chatbot-config\.php [NC]
+RewriteCond %{THE_REQUEST} !\s/+chatbot-api\.php [NC]
+RewriteCond %{THE_REQUEST} !\s/+chatbot-lead\.php [NC]
+RewriteCond %{THE_REQUEST} !\s/+admin-leads\.php [NC]
+RewriteCond %{THE_REQUEST} !\s/+blog/ [NC]
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.(php|html)[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# ------------------------------------------------------------
+# 4. Internal rewrites for Clean URLs
+#    Maps clean URL (e.g. /managed-it) to .php (first) or .html (second)
+# ------------------------------------------------------------
+# Skip existing physical directories, files, and WordPress /blog/
+RewriteCond %{REQUEST_URI} !^/blog/ [NC]
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Custom product rewrite
+RewriteRule ^product/([a-zA-Z0-9_-]+)$ product.php?name=$1 [L,QSA]
+
+# If a matching .php file exists, internally serve it
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Else if a matching .html file exists, internally serve it
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# ------------------------------------------------------------
+# 5. Block sensitive files
+# ------------------------------------------------------------
+<Files "chatbot-config.php">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</Files>
+
+<Files "chatbot-leads.log">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</Files>
+
+<FilesMatch "\.(log|env|ini|bak|old|save|swp|tmp|orig|sql|zip|tar|gz|rar|7z)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+<Files "reset-wp-pass.php">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</Files>
+
+<Files ".htaccess">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</Files>
+
+# ------------------------------------------------------------
+# 6. Security headers
+# ------------------------------------------------------------
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    Header unset X-Powered-By
+    Header unset Server
+</IfModule>
+
+# ------------------------------------------------------------
+# 7. CSP — REPORT-ONLY
+# ------------------------------------------------------------
+<IfModule mod_headers.c>
+    Header always set Content-Security-Policy-Report-Only "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; connect-src 'self' https:; frame-src https:; object-src 'none'; base-uri 'self'"
+</IfModule>
+
+# ------------------------------------------------------------
+# 8. Caching / compression (Core Web Vitals)
+# ------------------------------------------------------------
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg             "access plus 1 year"
+    ExpiresByType image/png              "access plus 1 year"
+    ExpiresByType image/webp             "access plus 1 year"
+    ExpiresByType image/svg+xml          "access plus 1 year"
+    ExpiresByType image/x-icon           "access plus 1 year"
+    ExpiresByType text/css               "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/html              "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json image/svg+xml
+</IfModule>

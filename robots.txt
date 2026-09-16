@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Block internal/admin pages
+Disallow: /admin-leads.php
+Disallow: /chatbot-api.php
+Disallow: /chatbot-lead.php
+Disallow: /chatbot-config.php
+Disallow: /service-template.php
+Disallow: /reset-wp-pass.php
+Disallow: /demo/
+Disallow: /blog/wp-admin/
+Allow: /blog/wp-admin/admin-ajax.php
+
+# Sitemaps
+Sitemap: https://evertechme.com/sitemap.xml
+Sitemap: https://evertechme.com/blog/wp-sitemap.xml

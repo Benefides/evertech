@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^(.*)\.html$ $1.php [L]
+RewriteRule ^product/([a-zA-Z0-9_-]+)$ product.php?name=$1 [L,QSA]
+
+# Tell search engines not to index anything in /demo/
+Header set X-Robots-Tag "noindex, nofollow"
+
