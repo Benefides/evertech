@@ -16,3 +16,4 @@ return [
     ],
     'log_path'          => (getenv('LEADS_LOG_DIR') ?: __DIR__) . '/chatbot-leads.log',
 ];
+

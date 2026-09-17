@@ -1,6 +1,6 @@
 <?php
-$pageTitle    = 'EverTech — IT & Cybersecurity Solutions';
-$pageDesc     = 'EverTech transforms businesses through advanced network infrastructure, managed IT, and cybersecurity solutions. Serving clients from Dubai, London, and Bengaluru.';
+$pageTitle    = 'IT & Cybersecurity Solutions Company in Dubai, UAE | EverTech';
+$pageDesc     = 'EverTech is a leading IT & cybersecurity solutions company in Dubai, UAE. We deliver managed IT services, network infrastructure, IT AMC, cloud & security solutions.';
 $pageCanonical = 'https://evertechme.com/';
 include('includes/head.inc.php');
 ?>
@@ -68,7 +68,7 @@ include('includes/head.inc.php');
                         <!-- Hero Content Start -->
                         <div class="hero-content">
                             <p class="sub-title" data-aos-delay="600" data-aos="fade-up">TECH CONSULTANCY REDEFINED</p>
-                            <h1 class="title" data-aos="fade-up" data-aos-delay="800">Transforming Business Through Advanced IT And Cyber Security Solutions.</h1>
+                            <h1 class="title" data-aos="fade-up" data-aos-delay="800">Transforming Businesses with Leading IT &amp; Cyber Security Solutions in Dubai &amp; the UAE</h1>
                             <div class="hero-btn" data-aos="fade-up" data-aos-delay="1000">
                                 <a id="services" class="btn" href="/about">Read More</a>
                             </div>
@@ -796,41 +796,89 @@ include('includes/head.inc.php');
         <script type="application/ld+json">
         {
           "@context": "https://schema.org",
-          "@type": "Organization",
+          "@type": "ITService",
+          "@id": "https://evertechme.com/#organization",
           "name": "EverTech",
+          "alternateName": "EverTech IT & Cybersecurity Solutions",
           "url": "https://evertechme.com",
           "logo": "https://evertechme.com/assets/images/icon.png",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+971-4-3487849",
-            "contactType": "customer service",
-            "email": "info@evertechme.com",
-            "areaServed": ["AE","GB","IN"],
-            "availableLanguage": "English"
+          "image": "https://evertechme.com/assets/images/custom/home-banner.jpg",
+          "description": "EverTech is an enterprise IT and cybersecurity solutions provider in Dubai, UAE, offering managed IT services, network infrastructure, IT AMC, cloud computing, and advanced cybersecurity.",
+          "telephone": "+971-4-3487849",
+          "email": "info@evertechme.com",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO Box 239885",
+            "addressLocality": "Dubai",
+            "addressRegion": "Dubai",
+            "postalCode": "239885",
+            "addressCountry": "AE"
           },
-          "address": [
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 25.2505,
+            "longitude": 55.3402
+          },
+          "openingHoursSpecification": [
             {
-              "@type": "PostalAddress",
-              "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO-239885",
-              "addressLocality": "Dubai",
-              "addressCountry": "AE"
-            },
-            {
-              "@type": "PostalAddress",
-              "streetAddress": "71-75 Shelton Street, Covent Garden",
-              "addressLocality": "London",
-              "postalCode": "WC2H 9JQ",
-              "addressCountry": "GB"
-            },
-            {
-              "@type": "PostalAddress",
-              "streetAddress": "BeHive, HSR Layout",
-              "addressLocality": "Bengaluru",
-              "postalCode": "560102",
-              "addressCountry": "IN"
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "18:00"
             }
           ],
-          "sameAs": []
+          "areaServed": [
+            {"@type": "Country", "name": "United Arab Emirates"},
+            {"@type": "Country", "name": "United Kingdom"},
+            {"@type": "Country", "name": "India"}
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "IT & Cybersecurity Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Managed IT Services in Dubai",
+                  "url": "https://evertechme.com/managed-it"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "IT Annual Maintenance Contract (AMC)",
+                  "url": "https://evertechme.com/amc"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Network Infrastructure Services",
+                  "url": "https://evertechme.com/infrastructure-services"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Cybersecurity Solutions & DFIR",
+                  "url": "https://evertechme.com/security-solutions"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Cloud Computing & Migration Services",
+                  "url": "https://evertechme.com/cloud-computing"
+                }
+              }
+            ]
+          }
         }
         </script>
 

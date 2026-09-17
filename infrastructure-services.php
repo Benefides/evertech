@@ -1,6 +1,6 @@
 <?php
-$pageTitle    = 'Network Infrastructure Services | EverTech';
-$pageDesc     = 'EverTech designs and deploys robust, scalable network infrastructure — LAN, WAN, wireless, and SD-WAN solutions for businesses in Dubai and beyond.';
+$pageTitle    = 'Network Infrastructure & Structured Cabling in Dubai | EverTech';
+$pageDesc     = 'Enterprise network infrastructure and structured cabling services in Dubai & UAE. EverTech delivers Cat6/Cat6A cabling, fiber optic, SD-WAN, Cisco, and Aruba network switching.';
 $pageCanonical = 'https://evertechme.com/infrastructure-services';
 include('includes/head.inc.php');
 ?>
@@ -66,11 +66,11 @@ include('includes/head.inc.php');
                         <div class="col-lg-12">
                             <!-- Page Banner Content Start -->
                             <div class="page-banner text-center">
-                                <h1 class="title">Network Infrastructure Services</h1>
+                                <h1 class="title">Network Infrastructure &amp; Cabling in Dubai</h1>
                                 <ul class="breadcrumb justify-content-center">
                                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                                     <li class="breadcrumb-item"><a href="#">Services</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Network Infrastructure Services</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Network Infrastructure</li>
                                 </ul>
                             </div>
                             <!-- Page Banner Content End -->
@@ -81,67 +81,299 @@ include('includes/head.inc.php');
         </div>
         <!-- Page Banner End -->
 
-        <!-- About Start -->
-        <!--<div class="section techwix-about-section-07 section-padding">
-            <div class="shape-1"></div>
-            <div class="container">
-            
-                <div class="about-wrap">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            
-                            <div class="about-img-wrap">
-                                <img class="shape-1" src="assets/images/shape/about-shape2.png" alt="">
-                                <div class="about-img">
-                                    <img src="assets/images/about-3.jpg" alt="" style="">
-                                </div>
-                                
-                            </div>
-                            
-                        </div>
-                        <div class="col-lg-6">
-                            
-                            <div class="about-content-wrap">
-                                <div class="section-title">
-                                    <h3 class="sub-title"></h3>
-                                    
-                                </div>
-                                <p class="text" style="text-align:justify">EverTech’s Network Infrastructure Service is designed to provide businesses with robust and scalable networks that ensure optimal performance and security. Whether upgrading an existing infrastructure or building one from scratch, EverTech’s team customizes network solutions to meet specific needs. This includes LAN/WAN design, installation, and maintenance, along with secure configurations to handle traffic demands. By deploying state-of-the-art technologies, EverTech ensures smooth communication, reliable connectivity, and the flexibility to scale up as your business grows. Ultimately, a well-managed network infrastructure enhances operational efficiency and strengthens data protection.</p>
-                                
-                                
-                                
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>-->
-        <!-- About End -->
-
-        <!-- Team Start -->
+        <!-- Service Content Start -->
         <div class="section section-padding service-inner">
             <div class="container">
                 
                 <div class="row">
-                    <div class="col-8 offset-2">
-                    <p>EverTech’s Network Infrastructure Service is designed to provide businesses with robust and scalable networks that ensure optimal performance and security. In today’s fast-paced digital landscape, having a reliable network is crucial for maintaining competitive advantage. Whether you're upgrading an existing infrastructure or building one from scratch, EverTech’s team of experienced professionals customizes network solutions to meet your specific needs.</p>
+                    <div class="col-lg-10 offset-lg-1">
+                        
+                        <!-- AI Overview / Direct Definition Block -->
+                        <div class="p-4 mb-4 rounded-3 border-start border-primary border-4 bg-light shadow-sm">
+                            <h2 class="h4 text-dark mb-2">Enterprise Network Design &amp; Structured Cabling in Dubai, UAE</h2>
+                            <p class="lead mb-0 fs-6 text-secondary">
+                                EverTech is a leading network infrastructure and structured cabling contractor in Dubai and the UAE. We design, deploy, and certify enterprise LAN/WAN environments, Cat6/Cat6A structured data cabling, multi-gigabit fiber optics, high-density Wi-Fi 6/6E wireless solutions, and next-generation SD-WAN connectivity powered by Cisco, Aruba, Fortinet, and Ubiquiti UniFi.
+                            </p>
+                        </div>
 
-<p>Our comprehensive services include LAN (Local Area Network) and WAN (Wide Area Network) design, installation, and ongoing maintenance. We understand that each business is unique, which is why we conduct thorough assessments to tailor solutions that align with your operational requirements. Our secure configurations are built to handle diverse traffic demands while safeguarding your sensitive data.</p>
+                        <p>
+                            A dependable, high-bandwidth network foundation is the backbone of modern enterprise productivity. As UAE businesses adopt cloud telephony (VoIP), 4K video conferencing, virtual desktop infrastructure (VDI), and IoT smart building sensors, outdated network cabling and bottlenecked switches lead to dropped calls, latency spikes, and severe productivity losses. EverTech delivers turnkey, Fluke-tested network infrastructure engineered to support tomorrow's bandwidth demands.
+                        </p>
 
-<p>By deploying state-of-the-art technologies and best practices, EverTech ensures smooth communication and reliable connectivity. Our proactive approach means that we continuously monitor and optimize network performance, allowing you to focus on your core business activities without interruptions. Furthermore, our scalable solutions provide the flexibility to grow alongside your business, accommodating increased workloads and additional users without compromising on speed or reliability.</p>
+                        <h2 class="mt-5 mb-4">Core Network Infrastructure Services We Provide</h2>
 
-<p>Ultimately, a well-managed network infrastructure not only enhances operational efficiency but also strengthens data protection, giving you peace of mind in an era where cyber threats are ever-present. Trust EverTech to be your partner in building a network that supports your business goals and keeps you ahead of the competition. With our commitment to excellence, we empower you to harness the full potential of your digital operations.</p>
+                        <div class="row g-4 mb-5">
+                            <div class="col-md-6">
+                                <div class="card h-100 p-3 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 text-primary mb-3"><i class="fas fa-network-wired me-2"></i> Structured Cabling &amp; Fiber Optics</h3>
+                                        <p class="card-text text-muted">
+                                            Turnkey installation of Cat6, Cat6A, and Cat7 UTP/FTP copper cabling, server rack cable dressing, patch panel termination, and single-mode / multi-mode (OM3/OM4/OM5) fiber backbones with 25-year manufacturer warranty.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100 p-3 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 text-primary mb-3"><i class="fas fa-server me-2"></i> L2/L3 Switching &amp; Core Routing</h3>
+                                        <p class="card-text text-muted">
+                                            Architecting redundant core and access switching layers using <a href="/product/cisco">Cisco Catalyst</a>, HP Aruba CX, and Dell Networking. Configuration of 802.1Q VLANs, link aggregation (LACP), spanning tree (RSTP), and QoS traffic prioritization.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100 p-3 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 text-primary mb-3"><i class="fas fa-wifi me-2"></i> High-Density Enterprise Wi-Fi 6 / 6E</h3>
+                                        <p class="card-text text-muted">
+                                            Predictive RF heatmap surveys using Ekahau, seamless roaming deployment, 802.1X enterprise authentication, and branded guest captive portals with Cisco Meraki, Aruba Instant On, and Ubiquiti UniFi.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100 p-3 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 text-primary mb-3"><i class="fas fa-globe me-2"></i> SD-WAN &amp; Multi-Branch Connectivity</h3>
+                                        <p class="card-text text-muted">
+                                            Interconnecting headquarters, branch offices, and warehouse facilities across Dubai, Abu Dhabi, and international sites. Dual-ISP link bonding (du / Etisalat), automated dynamic path selection, and secure IPSec VPN tunnels.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2 class="mt-4 mb-3">Structured Cabling Media Comparison: Cat6 vs Cat6A vs Fiber Optic</h2>
+                        <p>Selecting the right transmission medium for your Dubai office or commercial facility:</p>
+
+                        <div class="table-responsive mb-5">
+                            <table class="table table-bordered table-striped align-middle">
+                                <thead class="table-primary text-center">
+                                    <tr>
+                                        <th style="width: 25%;">Cable Standard</th>
+                                        <th style="width: 25%;">Max Speed / Bandwidth</th>
+                                        <th style="width: 20%;">Max Run Distance</th>
+                                        <th style="width: 30%;">Ideal UAE Office Application</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Cat6 UTP</strong></td>
+                                        <td>1 Gbps @ 250 MHz (10G up to 35m)</td>
+                                        <td>100 Meters</td>
+                                        <td>Standard office workstations, VoIP phones, and IP cameras</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Cat6A F/UTP (Shielded)</strong></td>
+                                        <td class="text-success fw-bold">10 Gbps @ 500 MHz</td>
+                                        <td>100 Meters</td>
+                                        <td>High-density Wi-Fi 6 APs, CAD workstations, enterprise backbones</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Cat7 S/FTP</strong></td>
+                                        <td>10 Gbps @ 600 MHz</td>
+                                        <td>100 Meters</td>
+                                        <td>Heavy industrial environments, EMI interference zones</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Multi-Mode Fiber (OM4/OM5)</strong></td>
+                                        <td class="text-success fw-bold">40 Gbps / 100 Gbps</td>
+                                        <td>400 Meters</td>
+                                        <td>Inter-floor risers, server rack interconnects, campus buildings</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Single-Mode Fiber (OS2)</strong></td>
+                                        <td class="text-success fw-bold">100 Gbps+</td>
+                                        <td>10+ Kilometers</td>
+                                        <td>Long-haul campus connections, data center inter-building links</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h2 class="mt-4 mb-3">Our 5-Stage Network Engineering Methodology</h2>
+                        <p class="text-muted">Every cabling and network project in the UAE follows rigorous ISO/IEC 11801 and ANSI/TIA-568 standards:</p>
+
+                        <div class="row g-3 mb-5">
+                            <div class="col-md-4">
+                                <div class="p-3 bg-light rounded border h-100">
+                                    <h4 class="h6 text-dark fw-bold mb-2">1. Site Survey &amp; Heatmap</h4>
+                                    <p class="small text-secondary mb-0">Physical walkthrough of your office premises, structural conduit inspection, and RF spectrum analysis for Wi-Fi density.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 bg-light rounded border h-100">
+                                    <h4 class="h6 text-dark fw-bold mb-2">2. Engineering Architecture</h4>
+                                    <p class="small text-secondary mb-0">Developing AutoCAD layout schematics, rack elevation drawings, VLAN segmentation topology, and cable pathway routing.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="p-3 bg-light rounded border h-100">
+                                    <h4 class="h6 text-dark fw-bold mb-2">3. Fluke DSX Certification</h4>
+                                    <p class="small text-secondary mb-0">100% link certification using Fluke DSX-8000 CableAnalyzer, testing for near-end crosstalk (NEXT), return loss, and wiremap.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 bg-light rounded border h-100">
+                                    <h4 class="h6 text-dark fw-bold mb-2">4. Switch &amp; Gateway Commissioning</h4>
+                                    <p class="small text-secondary mb-0">Hardening switch configurations, testing dual-ISP failover, configuring DHCP scopes, and deploying network monitoring sensors.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 bg-light rounded border h-100">
+                                    <h4 class="h6 text-dark fw-bold mb-2">5. As-Built Documentation</h4>
+                                    <p class="small text-secondary mb-0">Delivering comprehensive patch panel labeling, Fluke PDF certification reports, and network topology diagrams for client handover.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Call to Action Banner -->
+                        <div class="card bg-primary text-white text-center p-5 mb-5 rounded-3 border-0 shadow">
+                            <h3 class="text-white mb-3">Upgrade Your Enterprise Network Infrastructure</h3>
+                            <p class="lead mb-4 text-white-50">Schedule a complimentary on-site network survey and Fluke cable audit with our Dubai engineering team.</p>
+                            <div>
+                                <a href="/contact" class="btn btn-light btn-lg px-4 py-2 me-3 fw-bold">Request a Site Survey</a>
+                                <a href="tel:+97143487849" class="btn btn-outline-light btn-lg px-4 py-2"><i class="fas fa-phone-alt me-2"></i> +971 4 3487849</a>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Section -->
+                        <h2 class="mt-5 mb-4">Frequently Asked Questions: Network Infrastructure in Dubai</h2>
+                        
+                        <div class="accordion mb-5" id="infraFaqAccordion">
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h3 class="accordion-header" id="faqHeading1">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1">
+                                        Do you provide Fluke test certification for structured cabling in Dubai?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#infraFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        Yes. Every structured cabling project executed by EverTech is tested node-by-node using industry-standard Fluke DSX-8000 CableAnalyzers. We provide certified PDF test result reports verifying wiremap, length, propagation delay, delay skew, loop resistance, and crosstalk compliance for every copper and fiber port.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h3 class="accordion-header" id="faqHeading2">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                        Should we install Cat6 or Cat6A cabling for a new office in Dubai?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#infraFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        While standard Cat6 supports 1 Gbps up to 100 meters, Cat6A supports 10 Gbps transmission speeds up to the full 100 meters and offers superior alien crosstalk suppression. For new office fit-outs in Dubai expected to last 5 to 10 years, we strongly recommend Cat6A or shielded Cat6A to future-proof bandwidth for Wi-Fi 6/6E access points and high-speed server links.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h3 class="accordion-header" id="faqHeading3">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                        How does dual-ISP SD-WAN failover work with du and Etisalat?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#infraFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        Our SD-WAN gateways connect simultaneously to both du and Etisalat business broadband / leased line circuits. The gateway continuously monitors packet loss, jitter, and latency. In the event of a fiber cut or service degradation on one provider, all critical business traffic is automatically re-routed to the secondary line in under 2 seconds without disconnecting VoIP calls or VPN sessions.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h3 class="accordion-header" id="faqHeading4">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                        Can you organize and clean up existing messy server racks?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#infraFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        Yes. EverTech specializes in server rack dress-up and cable remediation. Our technicians trace, test, label, and re-patch all network cables, install horizontal and vertical cable managers, replace overlength patch cords with color-coded custom lengths, and optimize airflow to prevent switch overheating.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
                 
             </div>
         </div>
-        <!-- Team End -->
+        <!-- Service Content End -->
 
-
+        <!-- Schema.org Service & FAQPage Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Service",
+                    "@id": "https://evertechme.com/infrastructure-services#service",
+                    "name": "Network Infrastructure & Structured Cabling in Dubai",
+                    "serviceType": "Network Infrastructure & Structured Cabling",
+                    "provider": {
+                        "@type": "ITService",
+                        "name": "EverTech",
+                        "url": "https://evertechme.com",
+                        "telephone": "+971-4-3487849",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO Box 239885",
+                            "addressLocality": "Dubai",
+                            "addressCountry": "AE"
+                        }
+                    },
+                    "areaServed": [
+                        {"@type": "Country", "name": "United Arab Emirates"},
+                        {"@type": "Country", "name": "United Kingdom"},
+                        {"@type": "Country", "name": "India"}
+                    ],
+                    "description": "Turnkey network infrastructure and structured cabling services in Dubai, UAE. Cat6/Cat6A data cabling, fiber optic splicing, L2/L3 switching, Wi-Fi 6, and Fluke certification.",
+                    "url": "https://evertechme.com/infrastructure-services"
+                },
+                {
+                    "@type": "FAQPage",
+                    "@id": "https://evertechme.com/infrastructure-services#faq",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "Do you provide Fluke test certification for structured cabling in Dubai?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes. Every structured cabling project executed by EverTech is tested node-by-node using Fluke DSX-8000 CableAnalyzers, with certified PDF test reports provided for all copper and fiber links."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Should we install Cat6 or Cat6A cabling for a new office in Dubai?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "For new office fit-outs expected to last 5 to 10 years, Cat6A is strongly recommended as it supports 10 Gbps speeds up to 100 meters, future-proofing high-density Wi-Fi 6/6E access points."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How does dual-ISP SD-WAN failover work with du and Etisalat?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Our SD-WAN gateways connect to both du and Etisalat simultaneously. If one provider fails or degrades, traffic is re-routed to the secondary circuit in under 2 seconds without dropping active sessions."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Can you organize and clean up existing messy server racks?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes. EverTech specializes in server rack cable remediation, tracing, testing, color-coding, and installing horizontal and vertical cable managers for optimal airflow and maintenance."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        </script>
 
         <?php include('includes/page-footer.inc.php'); ?>
 

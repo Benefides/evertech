@@ -1,6 +1,6 @@
 <?php
-$pageTitle    = 'Contact EverTech — IT & Cybersecurity Solutions Provider';
-$pageDesc     = 'Get in touch with EverTech. Contact our offices in Dubai, London, or Bengaluru for IT infrastructure, managed IT, and cybersecurity solutions.';
+$pageTitle    = 'Contact EverTech — IT & Cybersecurity Solutions in Dubai, London & Bengaluru';
+$pageDesc     = 'Contact EverTech IT Solutions. Connect with our regional teams in Dubai (UAE), London (UK), and Bengaluru (India) for enterprise IT, managed services, and cybersecurity.';
 $pageCanonical = 'https://evertechme.com/contact';
 include('includes/head.inc.php');
 ?>
@@ -245,11 +245,72 @@ include('includes/head.inc.php');
         <!-- Contact Map Start -->
         <div class="section contact-map-section">
             <div class="contact-map-wrap">
-                <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Al+Marri+Building+-+17B+Street+-+Dubai+-+United+Arab+Emirates&t=m&z=10&output=embed&iwloc=near" title="New York University" aria-label="New York University" frameborder="0"></iframe>
+                <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Al+Marri+Building+-+17B+Street+-+Dubai+-+United+Arab+Emirates&t=m&z=10&output=embed&iwloc=near" title="EverTech Dubai Office Location" aria-label="EverTech Dubai Office Location" frameborder="0"></iframe>
             </div>
         </div>
         <!-- Contact Map End -->
 
+        <!-- Schema.org ContactPage Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": "Contact EverTech",
+            "url": "https://evertechme.com/contact",
+            "description": "Contact EverTech's offices in Dubai, London, and Bengaluru for enterprise IT and cybersecurity solutions.",
+            "mainEntity": {
+                "@type": "ITService",
+                "name": "EverTech",
+                "url": "https://evertechme.com",
+                "telephone": "+971-4-3487849",
+                "email": "contact@evertechme.com",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO Box 239885",
+                    "addressLocality": "Dubai",
+                    "addressCountry": "AE"
+                },
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "EverTech Dubai HQ",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO Box 239885",
+                            "addressLocality": "Dubai",
+                            "addressCountry": "AE"
+                        },
+                        "telephone": "+971-4-3487849"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "EverTech London Office",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "71-75 Shelton Street, Covent Garden",
+                            "addressLocality": "London",
+                            "postalCode": "WC2H 9JQ",
+                            "addressCountry": "GB"
+                        },
+                        "telephone": "+44-20-4577-0050"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "EverTech Bengaluru Office",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Site No. 560, Outer Ring Road, Mahadevapura",
+                            "addressLocality": "Bengaluru",
+                            "addressRegion": "Karnataka",
+                            "postalCode": "560048",
+                            "addressCountry": "IN"
+                        },
+                        "telephone": "+91-80-4123-4567"
+                    }
+                ]
+            }
+        }
+        </script>
 
         <?php include('includes/page-footer.inc.php'); ?>
 
