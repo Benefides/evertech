@@ -245,7 +245,7 @@ include('includes/head.inc.php');
         <!-- Contact Map Start -->
         <div class="section contact-map-section">
             <div class="contact-map-wrap">
-                <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Al+Marri+Building+-+17B+Street+-+Dubai+-+United+Arab+Emirates&t=m&z=10&output=embed&iwloc=near" title="EverTech Dubai Office Location" aria-label="EverTech Dubai Office Location" frameborder="0"></iframe>
+                <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Ithraa+Tower+-+Al+Garhoud+-+Dubai+-+United+Arab+Emirates&t=m&z=15&output=embed&iwloc=near" title="EverTech Dubai Office Location" aria-label="EverTech Dubai Office Location" frameborder="0"></iframe>
             </div>
         </div>
         <!-- Contact Map End -->

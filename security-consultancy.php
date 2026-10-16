@@ -87,6 +87,15 @@ include('includes/head.inc.php');
                 
                 <div class="row">
                     <div class="col-8 offset-2">
+
+                        <!-- AI Overview / Direct Definition Block -->
+                        <div class="p-4 mb-4 rounded-3 border-start border-primary border-4 bg-light shadow-sm">
+                            <h2 class="h4 text-dark mb-2">Cybersecurity Consultancy &amp; Strategy Advisory in Dubai, UAE</h2>
+                            <p class="lead mb-0 fs-6 text-secondary">
+                                EverTech's security consultants analyze your existing infrastructure and design tailored strategies that align with industry best practices and regulatory requirements.
+                            </p>
+                        </div>
+
                     <p>EverTech’s Security Consultancy services empower businesses to develop and implement robust security strategies tailored to their unique needs. In today’s complex threat landscape, it’s crucial for organizations to take a proactive approach to cybersecurity. Our consultancy begins with an in-depth analysis of your existing security infrastructure, allowing us to identify potential risks and vulnerabilities that could jeopardize your operations.</p>
 
 <p>Based on this thorough assessment, we recommend customized solutions that align with industry best practices. Our expertise covers a wide range of security measures, including firewall configurations, intrusion prevention systems, mobile device management, and more. We ensure that each component of your security strategy is designed to work seamlessly together, providing comprehensive protection for your digital environment.</p>
@@ -97,14 +106,184 @@ include('includes/head.inc.php');
 
 <p>With EverTech as your trusted partner, you can confidently navigate the ever-changing cybersecurity landscape. Our commitment to excellence and tailored solutions will empower your business to safeguard its assets, protect sensitive information, and maintain operational resilience in the face of evolving challenges. Let us help you build a secure future, allowing you to focus on your core business objectives with peace of mind.</p>
 
+                    <h2 class="mt-5 mb-4">What Our Security Consultancy Covers</h2>
+
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-search me-2"></i> Security Infrastructure Assessment</h3>
+                                    <p class="card-text text-muted">
+                                        An in-depth analysis of your existing security setup to identify risks and vulnerabilities before recommending changes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-sitemap me-2"></i> Tailored Security Strategy</h3>
+                                    <p class="card-text text-muted">
+                                        Customized recommendations spanning firewall configuration, intrusion prevention, and mobile device management, designed to work together.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-balance-scale me-2"></i> Regulatory Compliance Guidance</h3>
+                                    <p class="card-text text-muted">
+                                        Ongoing guidance helps align your security strategy with relevant industry regulations and standards.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-user-tie me-2"></i> Ongoing Strategic Advisory</h3>
+                                    <p class="card-text text-muted">
+                                        Continued collaboration helps your security posture keep pace with emerging threats and business changes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-5 mb-4">Frequently Asked Questions: Security Consultancy</h2>
+
+                    <div class="accordion mb-5" id="consultFaqAccordion">
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="consultFaqHeading1">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#consultFaqCollapse1" aria-expanded="false" aria-controls="consultFaqCollapse1">
+                                    What is the first step in EverTech's security consultancy process?
+                                </button>
+                            </h3>
+                            <div id="consultFaqCollapse1" class="accordion-collapse collapse" aria-labelledby="consultFaqHeading1" data-bs-parent="#consultFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    We begin with an in-depth analysis of your existing security infrastructure to identify risks and vulnerabilities before recommending any changes.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="consultFaqHeading2">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#consultFaqCollapse2" aria-expanded="false" aria-controls="consultFaqCollapse2">
+                                    What areas does the consultancy cover?
+                                </button>
+                            </h3>
+                            <div id="consultFaqCollapse2" class="accordion-collapse collapse" aria-labelledby="consultFaqHeading2" data-bs-parent="#consultFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Our recommendations can span firewall configuration, intrusion prevention, mobile device management, and other controls, tailored to work together as one strategy.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="consultFaqHeading3">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#consultFaqCollapse3" aria-expanded="false" aria-controls="consultFaqCollapse3">
+                                    Does EverTech help with regulatory compliance as part of consultancy?
+                                </button>
+                            </h3>
+                            <div id="consultFaqCollapse3" class="accordion-collapse collapse" aria-labelledby="consultFaqHeading3" data-bs-parent="#consultFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Yes, we work with your team to align your security strategy with relevant industry regulations and provide ongoing guidance as requirements evolve.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="consultFaqHeading4">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#consultFaqCollapse4" aria-expanded="false" aria-controls="consultFaqCollapse4">
+                                    Is the consultancy a one-off engagement or ongoing?
+                                </button>
+                            </h3>
+                            <div id="consultFaqCollapse4" class="accordion-collapse collapse" aria-labelledby="consultFaqHeading4" data-bs-parent="#consultFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    We can support both — an initial strategic assessment, and ongoing collaboration to help your security posture keep pace with emerging threats.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- Team End -->
 
-
+        <!-- Schema.org Service & FAQPage Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Service",
+                    "@id": "https://evertechme.com/security-consultancy#service",
+                    "name": "Security Consultancy",
+                    "serviceType": "Cybersecurity Consultancy",
+                    "provider": {
+                        "@type": "ITService",
+                        "name": "EverTech",
+                        "url": "https://evertechme.com",
+                        "telephone": "+971-4-3487849",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO Box 239885",
+                            "addressLocality": "Dubai",
+                            "addressCountry": "AE"
+                        }
+                    },
+                    "areaServed": [
+                        {"@type": "Country", "name": "United Arab Emirates"},
+                        {"@type": "Country", "name": "United Kingdom"},
+                        {"@type": "Country", "name": "India"}
+                    ],
+                    "description": "Get expert cybersecurity consultancy from EverTech — risk assessments, security strategy, and tailored recommendations for UAE and global enterprises.",
+                    "url": "https://evertechme.com/security-consultancy"
+                },
+                {
+                    "@type": "FAQPage",
+                    "@id": "https://evertechme.com/security-consultancy#faq",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "What is the first step in EverTech's security consultancy process?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "We begin with an in-depth analysis of your existing security infrastructure to identify risks and vulnerabilities before recommending any changes."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "What areas does the consultancy cover?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Our recommendations can span firewall configuration, intrusion prevention, mobile device management, and other controls, tailored to work together as one strategy."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Does EverTech help with regulatory compliance as part of consultancy?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, we work with your team to align your security strategy with relevant industry regulations and provide ongoing guidance as requirements evolve."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Is the consultancy a one-off engagement or ongoing?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "We can support both — an initial strategic assessment, and ongoing collaboration to help your security posture keep pace with emerging threats."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        </script>
 
         <?php include('includes/page-footer.inc.php'); ?>
 

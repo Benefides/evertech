@@ -43,7 +43,7 @@ include('includes/head.inc.php');
                                 <h1 class="title">Data Security &amp; Encryption</h1>
                                 <ul class="breadcrumb justify-content-center">
                                     <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="/security-services">Security</a></li>
+                                    <li class="breadcrumb-item">Articles</li>
                                     <li class="breadcrumb-item active" aria-current="page">Data Security &amp; Encryption</li>
                                 </ul>
                             </div>
@@ -90,14 +90,65 @@ include('includes/head.inc.php');
                             <p>A comprehensive data security strategy helps organizations meet compliance requirements, prevent unauthorized access, and maintain business continuity during cyber incidents. Key best practices include classifying data by sensitivity, applying the principle of least privilege, conducting regular security audits, and training employees on data handling procedures.</p>
 
                             <p>EverTech provides end-to-end <a href="/security-assurance" style="color:#7141B1;font-weight:500;">Security Assurance Solutions</a> and <a href="/security-solutions" style="color:#7141B1;font-weight:500;">Security Solutions</a> tailored to help businesses in Dubai and the UAE implement encryption, access controls, and data protection frameworks that meet modern compliance standards.</p>
-
-                            <div style="display:none" aria-hidden="true">
-                                Data Security, Data Encryption, Information Security, Data Protection, Encryption Solutions,
-                                Cybersecurity Compliance, Data Privacy, Cloud Security, Access Control, Data Loss Prevention,
-                                importance of data encryption for businesses, data security best practices,
-                                encryption solutions UAE, how to secure sensitive business data, enterprise data protection strategies
-                            </div>
                         </article>
+
+                        <!-- FAQ Section Start -->
+                        <h3 style="font-size:22px;font-weight:700;color:#1e293b;margin:36px 0 16px;">Frequently Asked Questions</h3>
+
+                        <div class="accordion mb-5" id="dataSecFaqAccordion">
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h4 class="accordion-header" id="dataSecFaqHeading1">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#dataSecFaqCollapse1" aria-expanded="false" aria-controls="dataSecFaqCollapse1">
+                                        What is the difference between encryption in transit and encryption at rest?
+                                    </button>
+                                </h4>
+                                <div id="dataSecFaqCollapse1" class="accordion-collapse collapse" aria-labelledby="dataSecFaqHeading1" data-bs-parent="#dataSecFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        Encryption in transit protects data moving across networks (using TLS/HTTPS and IPsec VPNs). Encryption at rest protects stored data on servers, disks, databases, and backups (using strong standards like AES-256). Both are necessary for complete defense-in-depth.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h4 class="accordion-header" id="dataSecFaqHeading2">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#dataSecFaqCollapse2" aria-expanded="false" aria-controls="dataSecFaqCollapse2">
+                                        Why is data encryption essential for compliance in the UAE?
+                                    </button>
+                                </h4>
+                                <div id="dataSecFaqCollapse2" class="accordion-collapse collapse" aria-labelledby="dataSecFaqHeading2" data-bs-parent="#dataSecFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        Under UAE Federal Decree-Law No. 45 on Personal Data Protection (PDPL), DIFC data protection laws, and Central Bank standards, organizations must implement robust technical controls — including encryption — to protect personal and financial data against unauthorized exposure.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h4 class="accordion-header" id="dataSecFaqHeading3">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#dataSecFaqCollapse3" aria-expanded="false" aria-controls="dataSecFaqCollapse3">
+                                        How does EverTech help enterprises implement data security?
+                                    </button>
+                                </h4>
+                                <div id="dataSecFaqCollapse3" class="accordion-collapse collapse" aria-labelledby="dataSecFaqHeading3" data-bs-parent="#dataSecFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        EverTech audits your data landscape, classifies critical information assets, configures endpoint and database encryption, implements role-based access controls (RBAC), and deploys Data Loss Prevention (DLP) tools.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h4 class="accordion-header" id="dataSecFaqHeading4">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#dataSecFaqCollapse4" aria-expanded="false" aria-controls="dataSecFaqCollapse4">
+                                        What happens to encrypted data if a company device is lost or stolen?
+                                    </button>
+                                </h4>
+                                <div id="dataSecFaqCollapse4" class="accordion-collapse collapse" aria-labelledby="dataSecFaqHeading4" data-bs-parent="#dataSecFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        With full-disk encryption and proper key management, stored data appears as unintelligible ciphertext and cannot be extracted or read without the authorized decryption key, preventing a breach even if hardware is stolen.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Section End -->
 
                         <div class="text-center mt-5 mb-4">
                             <p style="color:#475569;margin-bottom:16px;">Ready to strengthen your organization's data security and encryption strategy?</p>
@@ -124,17 +175,102 @@ include('includes/head.inc.php');
 
     </div>
 
+    <!-- Schema.org Article, BreadcrumbList, and FAQPage Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Data Security & Encryption: Protecting Sensitive Business Information in the Digital Age",
-        "description": "Discover how data encryption and security controls help organizations protect sensitive information and strengthen cyber resilience.",
-        "keywords": "Data Security, Data Encryption, Information Security, Data Protection, Encryption Solutions, Cybersecurity Compliance, Cloud Security, Access Control, Data Loss Prevention",
-        "datePublished": "2026-09-07",
-        "author": { "@type": "Organization", "name": "EverTech" },
-        "publisher": { "@type": "Organization", "name": "EverTech", "url": "https://evertechme.com" },
-        "url": "https://evertechme.com/data-security-encryption"
+        "@graph": [
+            {
+                "@type": "Article",
+                "@id": "https://evertechme.com/data-security-encryption#article",
+                "isPartOf": {
+                    "@type": "WebPage",
+                    "@id": "https://evertechme.com/data-security-encryption"
+                },
+                "headline": "Data Security & Encryption: Protecting Sensitive Business Information in the Digital Age",
+                "description": "Discover how data encryption and security controls help organizations protect sensitive information and strengthen cyber resilience.",
+                "image": "https://evertechme.com/assets/images/services/Security%20Assurance%20Solutions.jpg",
+                "datePublished": "2026-09-07T08:00:00+04:00",
+                "dateModified": "2026-10-06T10:00:00+04:00",
+                "author": {
+                    "@type": "Organization",
+                    "name": "EverTech",
+                    "url": "https://evertechme.com"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "EverTech",
+                    "url": "https://evertechme.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://evertechme.com/assets/images/logo-purple.png"
+                    }
+                },
+                "mainEntityOfPage": "https://evertechme.com/data-security-encryption"
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://evertechme.com/data-security-encryption#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://evertechme.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Articles",
+                        "item": "https://evertechme.com/data-security-encryption"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Data Security & Encryption",
+                        "item": "https://evertechme.com/data-security-encryption"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://evertechme.com/data-security-encryption#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is the difference between encryption in transit and encryption at rest?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Encryption in transit protects data moving across networks (using TLS/HTTPS and IPsec VPNs). Encryption at rest protects stored data on servers, disks, databases, and backups (using strong standards like AES-256). Both are necessary for complete defense-in-depth."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why is data encryption essential for compliance in the UAE?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Under UAE Federal Decree-Law No. 45 on Personal Data Protection (PDPL), DIFC data protection laws, and Central Bank standards, organizations must implement robust technical controls — including encryption — to protect personal and financial data against unauthorized exposure."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does EverTech help enterprises implement data security?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "EverTech audits your data landscape, classifies critical information assets, configures endpoint and database encryption, implements role-based access controls (RBAC), and deploys Data Loss Prevention (DLP) tools."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What happens to encrypted data if a company device is lost or stolen?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "With full-disk encryption and proper key management, stored data appears as unintelligible ciphertext and cannot be extracted or read without the authorized decryption key, preventing a breach even if hardware is stolen."
+                        }
+                    }
+                ]
+            }
+        ]
     }
     </script>
 
@@ -150,7 +286,7 @@ include('includes/head.inc.php');
     <script src="assets/js/plugins/appear.min.js"></script>
     <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>$(".header-menu li.service").addClass("active-menu");</script>
+    <script>$(".header-menu li.articles").addClass("active-menu");</script>
 
 </body>
 </html>

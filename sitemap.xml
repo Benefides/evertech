@@ -105,12 +105,14 @@
   <!-- Articles / Blog -->
   <url>
     <loc>https://evertechme.com/cybersecurity-phishing-protection</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://evertechme.com/data-security-encryption</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 

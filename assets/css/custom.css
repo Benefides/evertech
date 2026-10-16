@@ -58,6 +58,10 @@
     visibility: visible;
 }
 
+.header-menu .main-menu li.articles .sub-menu {
+    width: 320px;
+}
+
 .header-menu .main-menu li .sub-menu li {
     position: relative;
 }

@@ -131,6 +131,40 @@ include('includes/head.inc.php');
         </div>
         <!-- About End -->
 
+        <?php if ($currentProduct): ?>
+        <!-- Schema.org Service Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": <?= json_encode($currentProduct['name'] . ' Supply & Implementation', JSON_UNESCAPED_SLASHES) ?>,
+            "serviceType": <?= json_encode($currentProduct['name'] . ' Solutions', JSON_UNESCAPED_SLASHES) ?>,
+            "description": <?= json_encode(mb_substr(strip_tags($currentProduct['desc'] ?? ''), 0, 500), JSON_UNESCAPED_SLASHES) ?>,
+            "url": <?= json_encode($pageCanonical, JSON_UNESCAPED_SLASHES) ?>,
+            <?php if (!empty($currentProduct['cover'])): ?>
+            "image": <?= json_encode($pageOgImage, JSON_UNESCAPED_SLASHES) ?>,
+            <?php endif; ?>
+            "provider": {
+                "@type": "ITService",
+                "name": "EverTech",
+                "url": "https://evertechme.com",
+                "telephone": "+971-4-3487849",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO Box 239885",
+                    "addressLocality": "Dubai",
+                    "addressCountry": "AE"
+                }
+            },
+            "areaServed": [
+                {"@type": "Country", "name": "United Arab Emirates"},
+                {"@type": "Country", "name": "United Kingdom"},
+                {"@type": "Country", "name": "India"}
+            ]
+        }
+        </script>
+        <?php endif; ?>
+
         <?php include('includes/page-footer.inc.php'); ?>
 
     </div>

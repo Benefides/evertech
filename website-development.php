@@ -87,6 +87,15 @@ include('includes/head.inc.php');
                 
                 <div class="row">
                     <div class="col-8 offset-2">
+
+                        <!-- AI Overview / Direct Definition Block -->
+                        <div class="p-4 mb-4 rounded-3 border-start border-primary border-4 bg-light shadow-sm">
+                            <h2 class="h4 text-dark mb-2">Website Design &amp; Development Services in Dubai, UAE</h2>
+                            <p class="lead mb-0 fs-6 text-secondary">
+                                EverTech designs and builds responsive, SEO-optimized websites tailored to your business, combining strong design with the functionality your customers expect.
+                            </p>
+                        </div>
+
                     <p>EverTech’s Website Designing and Development service delivers cutting-edge, user-friendly websites meticulously tailored to meet the specific needs of businesses. In a digital landscape where first impressions matter, our expert team combines design aesthetics with functionality to create responsive, SEO-optimized websites that provide an engaging user experience.</p>
 
 <p>Understanding the importance of mobile compatibility, we ensure that every website we build performs seamlessly across all devices, offering users a consistent and enjoyable experience whether they’re on a desktop, tablet, or smartphone. Our focus on security is paramount; we implement the latest measures to protect your website and its users, fostering trust and confidence in your brand.</p>
@@ -97,14 +106,184 @@ include('includes/head.inc.php');
 
 <p>With EverTech, you’re not just getting a website; you’re investing in a strategic online presence that reflects your brand's values and meets your customers’ needs. Let us help you elevate your digital footprint and turn your vision into reality, ensuring your business stands out in today’s competitive landscape.</p>
 
+                    <h2 class="mt-5 mb-4">What Our Website Design &amp; Development Service Covers</h2>
+
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-mobile-alt me-2"></i> Responsive, Mobile-Friendly Design</h3>
+                                    <p class="card-text text-muted">
+                                        Every website is built to perform consistently across desktop, tablet, and mobile devices.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-search me-2"></i> SEO-Optimized Development</h3>
+                                    <p class="card-text text-muted">
+                                        Sites are built with search visibility in mind from the ground up, not bolted on afterward.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-network-wired me-2"></i> Business Tool Integration</h3>
+                                    <p class="card-text text-muted">
+                                        Connect your website with CRM systems, e-commerce platforms, and content management systems as part of your workflow.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-tools me-2"></i> Ongoing Website Support</h3>
+                                    <p class="card-text text-muted">
+                                        Continued support keeps your site running smoothly and evolving alongside your business.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-5 mb-4">Frequently Asked Questions: Website Designing and Development</h2>
+
+                    <div class="accordion mb-5" id="webFaqAccordion">
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="webFaqHeading1">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#webFaqCollapse1" aria-expanded="false" aria-controls="webFaqCollapse1">
+                                    What is included in EverTech's website design and development service?
+                                </button>
+                            </h3>
+                            <div id="webFaqCollapse1" class="accordion-collapse collapse" aria-labelledby="webFaqHeading1" data-bs-parent="#webFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    We design and build responsive, SEO-optimized websites tailored to your business, combining visual design with functionality and performance.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="webFaqHeading2">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#webFaqCollapse2" aria-expanded="false" aria-controls="webFaqCollapse2">
+                                    Will my website work well on mobile devices?
+                                </button>
+                            </h3>
+                            <div id="webFaqCollapse2" class="accordion-collapse collapse" aria-labelledby="webFaqHeading2" data-bs-parent="#webFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Yes, every website we build is designed to perform consistently across desktop, tablet, and mobile devices.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="webFaqHeading3">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#webFaqCollapse3" aria-expanded="false" aria-controls="webFaqCollapse3">
+                                    Can EverTech integrate our website with other business tools?
+                                </button>
+                            </h3>
+                            <div id="webFaqCollapse3" class="accordion-collapse collapse" aria-labelledby="webFaqHeading3" data-bs-parent="#webFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Yes, we can connect your website with CRM systems, e-commerce platforms, and content management systems as part of your workflow.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="webFaqHeading4">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#webFaqCollapse4" aria-expanded="false" aria-controls="webFaqCollapse4">
+                                    What types of websites does EverTech build?
+                                </button>
+                            </h3>
+                            <div id="webFaqCollapse4" class="accordion-collapse collapse" aria-labelledby="webFaqHeading4" data-bs-parent="#webFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    We build everything from simple corporate websites to more complex e-commerce platforms, depending on your business needs.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- Team End -->
 
-
+        <!-- Schema.org Service & FAQPage Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Service",
+                    "@id": "https://evertechme.com/website-development#service",
+                    "name": "Website Designing and Development",
+                    "serviceType": "Website Design and Development",
+                    "provider": {
+                        "@type": "ITService",
+                        "name": "EverTech",
+                        "url": "https://evertechme.com",
+                        "telephone": "+971-4-3487849",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO Box 239885",
+                            "addressLocality": "Dubai",
+                            "addressCountry": "AE"
+                        }
+                    },
+                    "areaServed": [
+                        {"@type": "Country", "name": "United Arab Emirates"},
+                        {"@type": "Country", "name": "United Kingdom"},
+                        {"@type": "Country", "name": "India"}
+                    ],
+                    "description": "EverTech builds modern, responsive websites and web applications — from design to deployment, tailored to your brand and business goals.",
+                    "url": "https://evertechme.com/website-development"
+                },
+                {
+                    "@type": "FAQPage",
+                    "@id": "https://evertechme.com/website-development#faq",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "What is included in EverTech's website design and development service?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "We design and build responsive, SEO-optimized websites tailored to your business, combining visual design with functionality and performance."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Will my website work well on mobile devices?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, every website we build is designed to perform consistently across desktop, tablet, and mobile devices."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Can EverTech integrate our website with other business tools?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, we can connect your website with CRM systems, e-commerce platforms, and content management systems as part of your workflow."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "What types of websites does EverTech build?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "We build everything from simple corporate websites to more complex e-commerce platforms, depending on your business needs."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        </script>
 
         <?php include('includes/page-footer.inc.php'); ?>
 

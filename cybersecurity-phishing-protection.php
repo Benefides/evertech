@@ -43,7 +43,7 @@ include('includes/head.inc.php');
                                 <h1 class="title">Cybersecurity &amp; Phishing Protection</h1>
                                 <ul class="breadcrumb justify-content-center">
                                     <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="/security-services">Security</a></li>
+                                    <li class="breadcrumb-item">Articles</li>
                                     <li class="breadcrumb-item active" aria-current="page">Phishing Protection</li>
                                 </ul>
                             </div>
@@ -88,14 +88,65 @@ include('includes/head.inc.php');
                             <p>Businesses that proactively address phishing threats improve their overall cybersecurity posture, reduce the likelihood of data breaches, and strengthen customer trust. Email security solutions in Dubai and the UAE help organizations comply with data protection regulations while keeping sensitive business information secure.</p>
 
                             <p>EverTech offers tailored <a href="/security-assurance" style="color:#7141B1;font-weight:500;">Security Assurance Solutions</a> and <a href="/awareness-trainings" style="color:#7141B1;font-weight:500;">Awareness Training</a> designed to protect your organization from phishing attacks and other email-based cyber threats.</p>
-
-                            <div style="display:none" aria-hidden="true">
-                                Cybersecurity, Phishing Attacks, Email Security, Phishing Protection, Cyber Security Services,
-                                Social Engineering, Cyber Threats, Email Protection, Security Awareness Training, Multi-Factor Authentication,
-                                how to prevent phishing attacks, phishing protection for businesses, cybersecurity awareness training UAE,
-                                email security solutions Dubai, phishing attack prevention strategies
-                            </div>
                         </article>
+
+                        <!-- FAQ Section Start -->
+                        <h3 style="font-size:22px;font-weight:700;color:#1e293b;margin:36px 0 16px;">Frequently Asked Questions</h3>
+
+                        <div class="accordion mb-5" id="phishingFaqAccordion">
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h4 class="accordion-header" id="phishingFaqHeading1">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#phishingFaqCollapse1" aria-expanded="false" aria-controls="phishingFaqCollapse1">
+                                        What is the most effective defense against phishing attacks?
+                                    </button>
+                                </h4>
+                                <div id="phishingFaqCollapse1" class="accordion-collapse collapse" aria-labelledby="phishingFaqHeading1" data-bs-parent="#phishingFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        A multi-layered defense is most effective: combining automated email security gateways (SPF, DKIM, DMARC), multi-factor authentication (MFA), endpoint protection, and continuous employee security awareness training.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h4 class="accordion-header" id="phishingFaqHeading2">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#phishingFaqCollapse2" aria-expanded="false" aria-controls="phishingFaqCollapse2">
+                                        How can employees recognize sophisticated spear phishing emails?
+                                    </button>
+                                </h4>
+                                <div id="phishingFaqCollapse2" class="accordion-collapse collapse" aria-labelledby="phishingFaqHeading2" data-bs-parent="#phishingFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        Employees should look out for mismatched sender addresses, urgent or emotional appeals, unexpected requests for credentials or wire transfers, and unverified links or attachments. Simulated phishing tests help reinforce these recognition skills.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h4 class="accordion-header" id="phishingFaqHeading3">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#phishingFaqCollapse3" aria-expanded="false" aria-controls="phishingFaqCollapse3">
+                                        How does EverTech help organizations in Dubai and UAE prevent phishing?
+                                    </button>
+                                </h4>
+                                <div id="phishingFaqCollapse3" class="accordion-collapse collapse" aria-labelledby="phishingFaqHeading3" data-bs-parent="#phishingFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        EverTech delivers enterprise-grade email filtering, domain spoofing prevention (DMARC/DKIM/SPF configuration), multi-factor authentication setup, and practical cybersecurity awareness workshops tailored to UAE businesses.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border mb-3 rounded shadow-sm">
+                                <h4 class="accordion-header" id="phishingFaqHeading4">
+                                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#phishingFaqCollapse4" aria-expanded="false" aria-controls="phishingFaqCollapse4">
+                                        What should an employee do if they accidentally clicked a phishing link?
+                                    </button>
+                                </h4>
+                                <div id="phishingFaqCollapse4" class="accordion-collapse collapse" aria-labelledby="phishingFaqHeading4" data-bs-parent="#phishingFaqAccordion">
+                                    <div class="accordion-body text-secondary">
+                                        Immediately disconnect the device from the network (Wi-Fi or Ethernet), notify your IT or cybersecurity team, reset compromised credentials from a secure device, and monitor for unauthorized activity.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Section End -->
 
                         <div class="text-center mt-5 mb-4">
                             <p style="color:#475569;margin-bottom:16px;">Protect your business from phishing and email-based cyber threats.</p>
@@ -122,17 +173,102 @@ include('includes/head.inc.php');
 
     </div>
 
+    <!-- Schema.org Article, BreadcrumbList, and FAQPage Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Cybersecurity & Phishing: How Businesses Can Prevent Email-Based Cyber Attacks",
-        "description": "Learn how phishing attacks target businesses and discover cybersecurity best practices to protect users, data, and critical systems.",
-        "keywords": "Cybersecurity, Phishing Attacks, Email Security, Phishing Protection, Security Awareness Training, Multi-Factor Authentication",
-        "datePublished": "2026-09-07",
-        "author": { "@type": "Organization", "name": "EverTech" },
-        "publisher": { "@type": "Organization", "name": "EverTech", "url": "https://evertechme.com" },
-        "url": "https://evertechme.com/cybersecurity-phishing-protection"
+        "@graph": [
+            {
+                "@type": "Article",
+                "@id": "https://evertechme.com/cybersecurity-phishing-protection#article",
+                "isPartOf": {
+                    "@type": "WebPage",
+                    "@id": "https://evertechme.com/cybersecurity-phishing-protection"
+                },
+                "headline": "Cybersecurity & Phishing: How Businesses Can Prevent Email-Based Cyber Attacks",
+                "description": "Learn how phishing attacks target businesses and discover cybersecurity best practices to protect users, data, and critical systems.",
+                "image": "https://evertechme.com/assets/images/services/Security%20Assurance%20Solutions.jpg",
+                "datePublished": "2026-09-07T08:00:00+04:00",
+                "dateModified": "2026-10-06T10:00:00+04:00",
+                "author": {
+                    "@type": "Organization",
+                    "name": "EverTech",
+                    "url": "https://evertechme.com"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "EverTech",
+                    "url": "https://evertechme.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://evertechme.com/assets/images/logo-purple.png"
+                    }
+                },
+                "mainEntityOfPage": "https://evertechme.com/cybersecurity-phishing-protection"
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://evertechme.com/cybersecurity-phishing-protection#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://evertechme.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Articles",
+                        "item": "https://evertechme.com/cybersecurity-phishing-protection"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Cybersecurity & Phishing Protection",
+                        "item": "https://evertechme.com/cybersecurity-phishing-protection"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://evertechme.com/cybersecurity-phishing-protection#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is the most effective defense against phishing attacks?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "A multi-layered defense is most effective: combining automated email security gateways (SPF, DKIM, DMARC), multi-factor authentication (MFA), endpoint protection, and continuous employee security awareness training."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How can employees recognize sophisticated spear phishing emails?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Employees should look out for mismatched sender addresses, urgent or emotional appeals, unexpected requests for credentials or wire transfers, and unverified links or attachments. Simulated phishing tests help reinforce these recognition skills."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does EverTech help organizations in Dubai and UAE prevent phishing?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "EverTech delivers enterprise-grade email filtering, domain spoofing prevention (DMARC/DKIM/SPF configuration), multi-factor authentication setup, and practical cybersecurity awareness workshops tailored to UAE businesses."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What should an employee do if they accidentally clicked a phishing link?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Immediately disconnect the device from the network (Wi-Fi or Ethernet), notify your IT or cybersecurity team, reset compromised credentials from a secure device, and monitor for unauthorized activity."
+                        }
+                    }
+                ]
+            }
+        ]
     }
     </script>
 
@@ -148,7 +284,7 @@ include('includes/head.inc.php');
     <script src="assets/js/plugins/appear.min.js"></script>
     <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>$(".header-menu li.service").addClass("active-menu");</script>
+    <script>$(".header-menu li.articles").addClass("active-menu");</script>
 
 </body>
 </html>

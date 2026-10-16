@@ -499,6 +499,33 @@ include('includes/head.inc.php');
         </div>
         <!-- Cta End -->
 
+        <!-- Schema.org AboutPage Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "@id": "https://evertechme.com/about#aboutpage",
+            "url": "https://evertechme.com/about",
+            "name": "About EverTech",
+            "mainEntity": {
+                "@type": "ITService",
+                "name": "EverTech",
+                "url": "https://evertechme.com",
+                "telephone": "+971-4-3487849",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO Box 239885",
+                    "addressLocality": "Dubai",
+                    "addressCountry": "AE"
+                },
+                "areaServed": [
+                    {"@type": "Country", "name": "United Arab Emirates"},
+                    {"@type": "Country", "name": "United Kingdom"},
+                    {"@type": "Country", "name": "India"}
+                ]
+            }
+        }
+        </script>
 
         <?php include('includes/page-footer.inc.php'); ?>
 

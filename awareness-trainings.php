@@ -87,6 +87,15 @@ include('includes/head.inc.php');
                 
                 <div class="row">
                     <div class="col-8 offset-2">
+
+                        <!-- AI Overview / Direct Definition Block -->
+                        <div class="p-4 mb-4 rounded-3 border-start border-primary border-4 bg-light shadow-sm">
+                            <h2 class="h4 text-dark mb-2">Cybersecurity Awareness Training for Employees in Dubai, UAE</h2>
+                            <p class="lead mb-0 fs-6 text-secondary">
+                                EverTech's awareness training programs equip your workforce to recognize and respond to phishing, social engineering, and other cyber threats, turning employees into an active layer of your security defense.
+                            </p>
+                        </div>
+
                     <p>Cybersecurity is only as strong as its weakest link, and often that link is the user. EverTech’s Awareness Trainings are meticulously designed to equip employees with the knowledge and skills necessary to recognize and respond effectively to security threats. In an age where cyber-attacks are increasingly targeted at individuals within organizations, empowering your workforce is crucial to maintaining a secure environment.</p>
 
 <p>Our training program covers a comprehensive range of topics, including phishing attacks, password management, data protection, and secure usage of devices and networks. Through interactive sessions and real-world scenarios, employees engage in practical learning that illustrates how to identify potential threats and prevent breaches. By fostering an understanding of the latest cyber threats and best practices, we help employees become vigilant guardians of your organization’s digital assets.</p>
@@ -97,14 +106,184 @@ include('includes/head.inc.php');
 
 <p>Investing in employee awareness is a crucial step toward minimizing risks and enhancing your cybersecurity strategy. Let EverTech empower your team to be the first line of defense against cyber threats, ensuring a safer and more secure working environment for everyone.</p>
 
+                    <h2 class="mt-5 mb-4">What Our Awareness Training Covers</h2>
+
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-user-shield me-2"></i> Phishing &amp; Social Engineering Awareness</h3>
+                                    <p class="card-text text-muted">
+                                        Employees learn to recognize phishing emails, social engineering tactics, and other common attempts to trick their way into your systems.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-key me-2"></i> Password &amp; Device Hygiene</h3>
+                                    <p class="card-text text-muted">
+                                        Practical guidance on password management, data protection, and safe use of devices and networks in day-to-day work.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-users me-2"></i> Interactive, Scenario-Based Learning</h3>
+                                    <p class="card-text text-muted">
+                                        Sessions use real-world scenarios and interactive exercises so employees practice identifying threats, not just reading about them.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-sync-alt me-2"></i> Ongoing Reinforcement</h3>
+                                    <p class="card-text text-muted">
+                                        Regular, repeated training builds a lasting culture of security awareness rather than a one-time checkbox exercise.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-5 mb-4">Frequently Asked Questions: Cybersecurity Awareness Trainings</h2>
+
+                    <div class="accordion mb-5" id="awareFaqAccordion">
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="awareFaqHeading1">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#awareFaqCollapse1" aria-expanded="false" aria-controls="awareFaqCollapse1">
+                                    Who should attend EverTech's cybersecurity awareness training?
+                                </button>
+                            </h3>
+                            <div id="awareFaqCollapse1" class="accordion-collapse collapse" aria-labelledby="awareFaqHeading1" data-bs-parent="#awareFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Our programs are designed for employees at every level, from entry-level staff to executives, since everyone in an organization can be a target for cyber threats.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="awareFaqHeading2">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#awareFaqCollapse2" aria-expanded="false" aria-controls="awareFaqCollapse2">
+                                    What topics are covered in the training?
+                                </button>
+                            </h3>
+                            <div id="awareFaqCollapse2" class="accordion-collapse collapse" aria-labelledby="awareFaqHeading2" data-bs-parent="#awareFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Sessions cover phishing awareness, password hygiene, data protection, and safe use of devices and networks, using interactive exercises and real-world scenarios.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="awareFaqHeading3">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#awareFaqCollapse3" aria-expanded="false" aria-controls="awareFaqCollapse3">
+                                    How often should awareness training be repeated?
+                                </button>
+                            </h3>
+                            <div id="awareFaqCollapse3" class="accordion-collapse collapse" aria-labelledby="awareFaqHeading3" data-bs-parent="#awareFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    We recommend an ongoing program rather than a one-time session, since regular reinforcement helps build a lasting culture of security awareness.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="awareFaqHeading4">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#awareFaqCollapse4" aria-expanded="false" aria-controls="awareFaqCollapse4">
+                                    Can the training be tailored to our organization?
+                                </button>
+                            </h3>
+                            <div id="awareFaqCollapse4" class="accordion-collapse collapse" aria-labelledby="awareFaqHeading4" data-bs-parent="#awareFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Yes, we tailor the content and scenarios to reflect your industry, systems, and the specific risks your team is most likely to encounter.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- Team End -->
 
-
+        <!-- Schema.org Service & FAQPage Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Service",
+                    "@id": "https://evertechme.com/awareness-trainings#service",
+                    "name": "Cybersecurity Awareness Trainings",
+                    "serviceType": "Cybersecurity Awareness Training",
+                    "provider": {
+                        "@type": "ITService",
+                        "name": "EverTech",
+                        "url": "https://evertechme.com",
+                        "telephone": "+971-4-3487849",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO Box 239885",
+                            "addressLocality": "Dubai",
+                            "addressCountry": "AE"
+                        }
+                    },
+                    "areaServed": [
+                        {"@type": "Country", "name": "United Arab Emirates"},
+                        {"@type": "Country", "name": "United Kingdom"},
+                        {"@type": "Country", "name": "India"}
+                    ],
+                    "description": "EverTech's cybersecurity awareness training programmes educate your workforce to recognise and respond to phishing, social engineering, and cyber threats.",
+                    "url": "https://evertechme.com/awareness-trainings"
+                },
+                {
+                    "@type": "FAQPage",
+                    "@id": "https://evertechme.com/awareness-trainings#faq",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "Who should attend EverTech's cybersecurity awareness training?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Our programs are designed for employees at every level, from entry-level staff to executives, since everyone in an organization can be a target for cyber threats."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "What topics are covered in the training?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Sessions cover phishing awareness, password hygiene, data protection, and safe use of devices and networks, using interactive exercises and real-world scenarios."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How often should awareness training be repeated?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "We recommend an ongoing program rather than a one-time session, since regular reinforcement helps build a lasting culture of security awareness."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Can the training be tailored to our organization?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, we tailor the content and scenarios to reflect your industry, systems, and the specific risks your team is most likely to encounter."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        </script>
 
         <?php include('includes/page-footer.inc.php'); ?>
 

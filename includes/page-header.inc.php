@@ -60,8 +60,13 @@
                     </ul>
                 </li>
 
-                
-                
+                <li class="articles">
+                    <a href="javascript:void(0);">Articles</a>
+                    <ul class="sub-menu">
+                        <li><a href="/cybersecurity-phishing-protection">Cybersecurity &amp; Phishing Protection</a></li>
+                        <li><a href="/data-security-encryption">Data Security &amp; Encryption</a></li>
+                    </ul>
+                </li>
                 <li class="blog"><a href="https://evertechme.com/blog">Blog</a></li>
                 <li class="contact"><a href="/contact">Contact</a></li>
             </ul>
@@ -161,6 +166,13 @@
                                 <li><a href="/license-and-compliance">License and Compliance Solutions</a></li>
                             </ul>
                         </li>
+                    </ul>
+                </li>
+                <li class="articles">
+                    <a href="javascript:void(0);">Articles</a>
+                    <ul class="sub-menu">
+                        <li><a href="/cybersecurity-phishing-protection">Cybersecurity &amp; Phishing Protection</a></li>
+                        <li><a href="/data-security-encryption">Data Security &amp; Encryption</a></li>
                     </ul>
                 </li>
                 <li><a href="https://evertechme.com/blog">Blog</a></li>

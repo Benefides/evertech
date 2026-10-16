@@ -87,6 +87,15 @@ include('includes/head.inc.php');
                 
                 <div class="row">
                     <div class="col-8 offset-2">
+
+                        <!-- AI Overview / Direct Definition Block -->
+                        <div class="p-4 mb-4 rounded-3 border-start border-primary border-4 bg-light shadow-sm">
+                            <h2 class="h4 text-dark mb-2">Security Assurance: Vulnerability Assessments &amp; Penetration Testing in Dubai, UAE</h2>
+                            <p class="lead mb-0 fs-6 text-secondary">
+                                EverTech's security assurance solutions combine vulnerability assessments, penetration testing, and continuous monitoring to identify weaknesses before attackers can exploit them.
+                            </p>
+                        </div>
+
                     <p>EverTech’s Security Assurance Solutions are meticulously designed to safeguard businesses from the ever-evolving landscape of digital threats through comprehensive assessments and proactive defense mechanisms. In a world where cyber-attacks are becoming increasingly sophisticated, it is essential for organizations to adopt a multi-layered security approach that effectively protects their digital assets.</p>
 
 <p>Our services encompass a range of critical offerings, including vulnerability assessments, penetration testing, and continuous security monitoring. By systematically identifying potential security risks, EverTech empowers businesses to fortify their systems and minimize the likelihood of successful cyber-attacks.</p>
@@ -97,14 +106,184 @@ include('includes/head.inc.php');
 
 <p>By choosing EverTech’s Security Assurance Solutions, you are investing in a proactive defense strategy that not only protects your digital assets but also fosters a culture of security within your organization. With our dedicated team at your side, you can navigate the complexities of cybersecurity with confidence, knowing that your business is well-equipped to face any challenge. Let us help you secure your future against digital threats, enabling you to focus on driving innovation and growth.</p>
 
+                    <h2 class="mt-5 mb-4">What Our Security Assurance Service Covers</h2>
+
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-search me-2"></i> Vulnerability Assessments</h3>
+                                    <p class="card-text text-muted">
+                                        Systematic identification of potential security risks across your IT infrastructure before they can be exploited.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-user-shield me-2"></i> Penetration Testing</h3>
+                                    <p class="card-text text-muted">
+                                        Ethical hackers simulate real-world attack scenarios to uncover exploitable weaknesses in your systems.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-chart-line me-2"></i> Continuous Security Monitoring</h3>
+                                    <p class="card-text text-muted">
+                                        Ongoing monitoring detects and responds to potential threats in real time, not just at a single point in time.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 p-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h3 class="h5 text-primary mb-3"><i class="fas fa-clipboard-check me-2"></i> Risk Mitigation Strategy</h3>
+                                    <p class="card-text text-muted">
+                                        Targeted recommendations following each assessment help fortify your systems against future threats.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-5 mb-4">Frequently Asked Questions: Security Assurance Solutions</h2>
+
+                    <div class="accordion mb-5" id="assureFaqAccordion">
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="assureFaqHeading1">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#assureFaqCollapse1" aria-expanded="false" aria-controls="assureFaqCollapse1">
+                                    What does EverTech's security assurance service involve?
+                                </button>
+                            </h3>
+                            <div id="assureFaqCollapse1" class="accordion-collapse collapse" aria-labelledby="assureFaqHeading1" data-bs-parent="#assureFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    It combines vulnerability assessments, penetration testing, and continuous security monitoring to identify and address weaknesses before attackers can exploit them.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="assureFaqHeading2">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#assureFaqCollapse2" aria-expanded="false" aria-controls="assureFaqCollapse2">
+                                    What happens during a penetration test?
+                                </button>
+                            </h3>
+                            <div id="assureFaqCollapse2" class="accordion-collapse collapse" aria-labelledby="assureFaqHeading2" data-bs-parent="#assureFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Our team simulates real-world attack scenarios against your IT infrastructure to uncover vulnerabilities, then provides targeted recommendations to mitigate the risks found.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="assureFaqHeading3">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#assureFaqCollapse3" aria-expanded="false" aria-controls="assureFaqCollapse3">
+                                    Is security monitoring continuous or a one-time check?
+                                </button>
+                            </h3>
+                            <div id="assureFaqCollapse3" class="accordion-collapse collapse" aria-labelledby="assureFaqHeading3" data-bs-parent="#assureFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    Continuous — we monitor your environment on an ongoing basis so potential threats can be detected and responded to in real time, not just at a single point in time.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border mb-3 rounded shadow-sm">
+                            <h3 class="accordion-header" id="assureFaqHeading4">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#assureFaqCollapse4" aria-expanded="false" aria-controls="assureFaqCollapse4">
+                                    How does this help protect sensitive data?
+                                </button>
+                            </h3>
+                            <div id="assureFaqCollapse4" class="accordion-collapse collapse" aria-labelledby="assureFaqHeading4" data-bs-parent="#assureFaqAccordion">
+                                <div class="accordion-body text-secondary">
+                                    By combining proactive testing with continuous monitoring, we help maintain the confidentiality, integrity, and availability of your critical business data.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- Team End -->
 
-
+        <!-- Schema.org Service & FAQPage Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Service",
+                    "@id": "https://evertechme.com/security-assurance#service",
+                    "name": "Security Assurance Solutions",
+                    "serviceType": "Security Assurance",
+                    "provider": {
+                        "@type": "ITService",
+                        "name": "EverTech",
+                        "url": "https://evertechme.com",
+                        "telephone": "+971-4-3487849",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "streetAddress": "Office 105, Ithraa Tower, Al Garhoud, PO Box 239885",
+                            "addressLocality": "Dubai",
+                            "addressCountry": "AE"
+                        }
+                    },
+                    "areaServed": [
+                        {"@type": "Country", "name": "United Arab Emirates"},
+                        {"@type": "Country", "name": "United Kingdom"},
+                        {"@type": "Country", "name": "India"}
+                    ],
+                    "description": "EverTech's security assurance solutions include vulnerability assessments, penetration testing, and compliance audits to protect your organisation from cyber threats.",
+                    "url": "https://evertechme.com/security-assurance"
+                },
+                {
+                    "@type": "FAQPage",
+                    "@id": "https://evertechme.com/security-assurance#faq",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "What does EverTech's security assurance service involve?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "It combines vulnerability assessments, penetration testing, and continuous security monitoring to identify and address weaknesses before attackers can exploit them."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "What happens during a penetration test?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Our team simulates real-world attack scenarios against your IT infrastructure to uncover vulnerabilities, then provides targeted recommendations to mitigate the risks found."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Is security monitoring continuous or a one-time check?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Continuous — we monitor your environment on an ongoing basis so potential threats can be detected and responded to in real time, not just at a single point in time."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How does this help protect sensitive data?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "By combining proactive testing with continuous monitoring, we help maintain the confidentiality, integrity, and availability of your critical business data."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+        </script>
 
         <?php include('includes/page-footer.inc.php'); ?>
 
